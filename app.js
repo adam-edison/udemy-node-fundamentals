@@ -1,12 +1,12 @@
 
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
 const internal_port = 8000;
 const external_port = 8081;
 
 app.get('/', function (req, res) {
-  res.send('Hello, World!');
+  res.send('Use bash session inside the docker container to run individual files with node.');
 });
 
 app.listen(internal_port, function () {

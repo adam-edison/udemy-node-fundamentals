@@ -4,3 +4,6 @@ node_modules/
 
 # Ignore config backups
 docker-compose.yml.bak
+
+# Ignore text file output generated at runtime
+*.txt
